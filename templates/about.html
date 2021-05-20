@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drugs Persistency 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_about.css') }}">
+
+</head>
+
+<body>
+<h2> About us </h2>
+
+<div class="container">
+
+	<div class="table">
+		<div class="table-header">
+			<div class="header__item"><a id="name" class="filter__link" href="#">Name</a></div>
+            <div class="header__item"><a id="specialization" class="filter__link filter__link--number" href="#">Specialization</a></div>
+            <div class="header__item"><a id="country" class="filter__link filter__link--number" href="#">Country</a></div>
+            <div class="header__item"><a id="email" class="filter__link filter__link--number" href="#">E-mail address</a></div>
+		</div>
+		<div class="table-content">
+			<div class="table-row">
+				<div class="table-data">Ms. Afshan Hashmi </div>
+				<div class="table-data">Data Science</div>
+				<div class="table-data">Kingdom of Saudi Arabia </div>
+				<div class="table-data">afshanhashmi786@gmail.com</div>
+			</div>
+			<div class="table-row">
+				<div class="table-data">Ms. Larisa Popa</div>
+				<div class="table-data">Data Science</div>
+				<div class="table-data">Romania </div>
+				<div class="table-data">larisapopa4@gmail.com</div>
+			</div>
+			<div class="table-row">
+				<div class="table-data">Mr. Omar Safwat </div>
+				<div class="table-data">Data Science </div>
+				<div class="table-data">Egypt</div>
+				<div class="table-data">omarksafwat@gmail.com</div>
+			</div>
+            	<div class="table-row">
+				<div class="table-data">Mr. Roger Burek-Bors </div>
+				<div class="table-data">Data Science </div>
+				<div class="table-data">Poland </div>
+				<div class="table-data">roger.burek-bors@hotmail.com</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<form action="/home" method="get">
+    <button name="backHome" class="button" type="submit">Back</button>
+</form>
+
+</body>
+</html>

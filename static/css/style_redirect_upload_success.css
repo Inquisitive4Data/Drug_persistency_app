@@ -1,0 +1,32 @@
+.button {
+  background-color:  #2a2b2b;
+  color: #FF8C00;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: 40px;
+  text-align: left;
+  letter-spacing: -2px;
+  color: #2a2b2b;
+}
+h3{
+  font-size: 30px;
+  margin-top: 23px;
+  text-align: left;
+  color: #2a2b2b;
+}
+h3{
+  font-size: 20px;
+  margin-top: 23px;
+  text-align: left;
+  color: #2a2b2b;
+}

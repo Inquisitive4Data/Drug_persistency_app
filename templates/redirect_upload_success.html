@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drugs Persistency 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_redirect_upload_success.css') }}">
+
+</head>
+
+<body>
+<h2> File uploaded successfully!</h2>
+
+<h3> Data validation result: </h3>
+<p1>{{validation_output}}</p1>
+<br>
+<br>
+<form action="/" method="get">
+    <button name="backHome" type="submit" class="button">Back</button>
+</form>
+
+</body>
+</html>

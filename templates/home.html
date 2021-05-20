@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drugs Persistency</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<header>
+      <div class="container">
+        <h1 class="logo"></h1>
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+              <li><a href="{{ url_for('about') }}">About</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+
+<h2> Drug Persistency Predictor</h2>
+<div class="form">
+<form action="/download-template" method="post">
+    <button name="downloadTemplate" type="submit" class="button">Download Template</button>
+</form>
+</div>
+<br>
+<h3>Upload dataset for prediction</h3>
+<div class="form">
+<form action = "/upload-dataset" method = "post"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file"  class="button"/>
+         <input type = "submit" class="button"/>
+</form>
+</div>
+<br>
+<h3>Download predicted file</h3>
+<div class="form">
+<form action="/download-prediction" method="post">
+    <button name="downloadPrediction" type="submit" class="button">Download Prediction</button>
+</form>
+</div>
+
+</body>
+</html>
